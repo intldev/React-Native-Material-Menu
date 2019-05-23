@@ -31,7 +31,7 @@ import Menu, { MenuItem, MenuDivider } from 'react-native-material-menu';
 class App extends React.PureComponent {
   _menu = null;
 
-  setMenuRef = ref => {
+  setMenuRef = (ref) => {
     this._menu = ref;
   };
 
@@ -113,10 +113,6 @@ export default App;
 ## Pietile native kit
 
 Also take a look at other our components for react-native - [pietile-native-kit](https://github.com/pietile/pietile-native-kit)
-
-## License
-
-MIT License. © Maksim Milyutin 2017-2019
 
 [text component]: https://facebook.github.io/react-native/docs/text.html
 [react-native-vector-icons]: https://github.com/oblador/react-native-vector-icons
